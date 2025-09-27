@@ -8,6 +8,8 @@ This repository implements a cloud-native, locally deployed platform for multi-d
 
 本專案實作一個雲原生架構的多疾病預測平台，採用本地 Kubernetes 部署，支援糖尿病、心臟病與中風等模組的容器化預測流程
 
+---
+
 ## Project Overview
 
 - **Objective**: To build a reproducible and scalable AI platform for predicting multiple diseases using containerized modules.
@@ -20,3 +22,7 @@ This repository implements a cloud-native, locally deployed platform for multi-d
 ## Academic Context
 
 This project is part of the research initiative titled *智慧醫療雲：平行容器化的多疾病預測平台*, exploring cloud-native design principles in a local Kubernetes environment.
+
+<p align="center">
+  <img src="assets/contest_poster.JPG" alt="專題海報" width="600"/>
+</p>
