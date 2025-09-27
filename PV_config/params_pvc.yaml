@@ -1,0 +1,12 @@
+ kind: PersistentVolumeClaim
+ apiVersion: v1
+ metadata:
+   name: params-pvc
+   namespace: kubeflow-user-example-com
+ spec:
+   storageClassName: ""
+   accessModes:
+     - ReadWriteMany
+   resources:
+     requests:
+       storage: 5Gi
